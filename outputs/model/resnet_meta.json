@@ -1,0 +1,20 @@
+{
+  "feature_cols": [],
+  "classes": [
+    "lunges_bad",
+    "lunges_good",
+    "pullups_bad",
+    "pullups_good",
+    "pushups_bad",
+    "pushups_good",
+    "squats_bad",
+    "squats_good"
+  ],
+  "num_classes": 8,
+  "input_dim": null,
+  "img_size": [
+    224,
+    224
+  ],
+  "architecture": "resnet18"
+}

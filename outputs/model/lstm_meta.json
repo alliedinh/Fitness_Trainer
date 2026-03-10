@@ -1,0 +1,33 @@
+{
+  "feature_cols": [
+    "left_knee_angle",
+    "right_knee_angle",
+    "left_elbow_angle",
+    "right_elbow_angle",
+    "left_hip_angle",
+    "right_hip_angle",
+    "left_body_line",
+    "right_body_line",
+    "left_shoulder_angle",
+    "right_shoulder_angle",
+    "torso_angle",
+    "left_knee_bend",
+    "right_knee_bend",
+    "left_shoulder_shrug",
+    "right_shoulder_shrug",
+    "head_drop"
+  ],
+  "classes": [
+    "lunges_bad",
+    "lunges_good",
+    "pullups_bad",
+    "pullups_good",
+    "pushups_bad",
+    "pushups_good",
+    "squats_bad",
+    "squats_good"
+  ],
+  "num_classes": 8,
+  "input_dim": 16,
+  "seq_len": 10
+}
